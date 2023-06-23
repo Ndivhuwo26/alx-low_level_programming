@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strdup -a program that duplicate to new memory space location
- * @str: is a char
+ * _strdup -this duplicates to new memory space location
+ * @str:a char
  * Return: 0
  */
 char *_strdup(char *str)
