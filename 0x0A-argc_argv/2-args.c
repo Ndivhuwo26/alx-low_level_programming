@@ -10,14 +10,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int k;
+	int j;
 
-	printf("argc =%d\n", argc);
-
-	for (k = 0; k < argc; k++)
+	for (j = 0; j < argc; j++)
 	{
-		printf("argc[%d] = %s\n", k, argv[k]);
+		printf("%s\n", argv[j]);
 	}
 
 	return (0);
 }
+
