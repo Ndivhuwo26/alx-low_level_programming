@@ -1,11 +1,10 @@
-	Global   Main
-	  Extern    Printf
-Main:
-	  Mov   Edi, Format
-	  Xor   Eax, Eax
-	  Call  Printf
-	  Mov   Eax, 0
-	  Ret
-
-Format: db `Hello, Holberton\n`,0
+	global   main
+	  extern    printf
+main:
+	  mov   edi, format
+	  xor   eax, eax
+	  call  printf
+	  mov   eax, 0
+	  ret
+format: db `Hello, Holberton`,0xa
 
