@@ -1,6 +1,11 @@
-# this is the gcc with some variables to make file
+# this is the gcc with some variables to make file.
+# Define variables
 CC = gcc
-SRC = main.c shool.c
-all : ${SRC}
-	
-	${CC} ${SRC} -o school
+SRC = main.c school.c
+
+all: school
+
+school: $(SRC)
+	$(CC) $(SRC) -o school
+
+
