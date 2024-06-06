@@ -1,5 +1,5 @@
 # this is the gcc with some variables to make file
 CC = gcc
-SRC = main.c shool.c     $(wildcard .c)
+SRC = main.c shool.c
 all : ${SRC}
 	${CC} ${SRC} -o school
